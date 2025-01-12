@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Meyawo Landing page | Free Bootstrap 4.3.x landing page</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="assets/css/meyawo.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#">Sanket</a>
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#testmonial">Testmonial</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#blog">Blog</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#contact">Contact</a>
+                </li>
+                <li class="item ml-md-3">
+                    <a href="components.html" class="btn btn-primary">Components</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>
+    </nav><!-- End of Page Navbar -->
+
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">HI!</span>
+                <span class="down">I am Sanket Mengal</span>
+            </h1>
+            <p class="header-subtitle">DevOps Engineer</p>
+
+            <button class="btn btn-primary">Visit My Works</button>
+        </div>
+    </header><!-- end of page header -->
+
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="assets/imgs/man.png" class="about-img"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="about-caption">
+                    <p class="section-subtitle">Who Am I ?</p>
+                    <h2 class="section-title mb-3">About Me</h2>
+                    <p>
+                    <p>
+                        I am a recent graduate with a BTech in Information Technology from VIIT College, Pune, driven by
+                        a strong passion for technology and innovation.<br>Throughout my academic journey, I have
+                        developed a diverse set of
+                        skills and technical expertise that have fueled my ambition to become a DevOps Engineer.
+                    </p>
+                    <p>
+                        I have hands-on experience in Python scripting and automation, which has enabled me to
+                        streamline
+                        processes, enhance system efficiency, and reduce manual interventions.<br>My knowledge of cloud
+                        computing—particularly AWS
+                        architecture—has provided me with the ability to build and manage scalable and secure cloud
+                        infrastructures.
+                    </p>
+                    <p>
+                        Additionally, I have gained practical exposure to various DevOps tools and practices,
+                        allowing me to contribute to Continuous Integration (CI), Continuous Delivery (CD), and
+                        automation pipelines.<br>I
+                        am committed
+                        to ensuring faster, more reliable software deployments, which ultimately lead to improved
+                        operational efficiency.
+                    </p>
+                    <p>
+                        With hands-on experience in Python scripting and automation, I am adept at streamlining
+                        processes, improving system efficiency, and reducing manual interventions.<br>I have gained
+                        solid understanding of
+                        cloud
+                        computing, particularly through AWS architecture, where I have built and managed scalable and
+                        secure cloud
+                        infrastructure.<br>My exposure to DevOps
+                        tools and practices has allowed me to work on continuous integration, continuous delivery
+                        (CI/CD), and automation pipelines, ensuring faster, more reliable software deployments.
+                    </p>
+                    <p>
+                        Additionally, I have experience in programming languages like C and C++, which has enhanced my
+                        problem-solving abilities and helped me in developing efficient, high-performance systems.<br>My
+                        interest in game
+                        development has
+                        further sharpened my skills in creative problem-solving and collaborative teamwork, as well as
+                        proficiency in tools
+                        like Unity and Unreal Engine.
+                    </p>
+                    <p>
+                        I am passionate about applying my knowledge and skills to build efficient, reliable, and
+                        scalable
+                        systems that support seamless development workflows.<br>My dream is to work as a DevOps
+                        Engineer, where I can
+                        leverage
+                        my skills in cloud computing, automation, and software engineering to create robust and agile
+                        solutions for
+                        real-world challenges.
+                    </p>
+
+                    </p>
+                    </p>
+                    <button class="btn-rounded btn btn-outline-primary mt-4">
+                        <a href="cv.pdf" download class="text-decoration-none text-dark">Download CV</a>
+                    </button>
+                    <div class="mt-3" style="text-align: center;">
+                        <p>This page has been visited <span id="visit-counter">0</span> times.</p>
+                    </div>
+
+                    <script>
+                        const COUNTER_KEY = 'github-visit-counter';
+
+                        // Get the current counter value from localStorage
+                        let counter = localStorage.getItem(COUNTER_KEY) || 0;
+
+                        // Increment the counter
+                        counter = parseInt(counter, 10) + 1;
+
+                        // Update localStorage
+                        localStorage.setItem(COUNTER_KEY, counter);
+
+                        // Update the counter on the page
+                        document.getElementById('visit-counter').textContent = counter;
+                    </script>
+
+                </div>
+            </div><!-- end of about wrapper -->
+
+        </div><!-- end of container -->
+
+    </section> <!-- end of about section -->
+
+    <!-- service section -->
+    <section class="section" id="service">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Do ?</p>
+            <h6 class="section-title mb-6">My Expertise</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/pencil-case.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">DevOps</h6>
+                            <p class="subtitle">"Empowering seamless software delivery through automation,
+                                collaboration, and cloud innovation."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/responsive.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Linux</h6>
+                            <p class="subtitle">"Proficient in Linux system administration, including shell scripting,
+                                process management, and security configurations."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/aws-svgrepo-com.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">AWS</h6>
+                            <p class="subtitle">"Skilled in designing, deploying, and managing scalable, secure, and
+                                cost-efficient cloud solutions on AWS."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/github-142-svgrepo-com.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Git & Github</h6>
+                            <p class="subtitle">"Experienced in version control with Git and collaborative development
+                                using GitHub for efficient code management."</p>
+                        </div>
+                    </div>
+                </div>
+                <div style="width: 20px; height: 20px; display: inline-block;"></div>
+
+            </div><!-- end of row -->
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/system.png"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Python Scripting</h6>
+                            <p class="subtitle">"Proficient in Python scripting for automation, data manipulation, and
+                                building efficient workflows."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/Fullstack.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Full Stack</h6>
+                            <p class="subtitle">"Skilled in developing dynamic and scalable full-stack web applications
+                                using Python and Django."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/toolbox.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Game Development</h6>
+                            <p class="subtitle">"Gave Development using Unity"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/uiux.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">UI/UX</h6>
+                            <p class="subtitle">"Experienced in designing intuitive and user-friendly interfaces with a
+                                focus on UI/UX principles using Figma."</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section><!-- end of service section -->
+
+    <!-- portfolio section -->
+    <section class="section" id="portfolio">
+        <div class="container text-center">
+            <p class="section-subtitle"></p>
+            <h6 class="section-title mb-6">My Projects</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="section-title mb-6">1</h3>
+                    <a href="#" class="portfolio-card">
+                        <img src="assets/imgs/folio-1.jpg" class="portfolio-card-img"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Implemented and Deployed Scalable 3-Tier Architecture on AWS for High Availability
+                                    and Performance</h5>
+                                    <p class="font-weight-normal">Category: Architectural Design and Deployment</p>
+                            </span>
+                        </span>
+                        <div class="project-video">
+                            <p>View the project working video on LinkedIn:</p>
+                            <a href="https://www.linkedin.com/posts/sanket-mengal-37940b253_aws-three-tier-project-architecture-implementation-activity-7280212515609833472-FndW?utm_source=share&utm_medium=member_desktop"
+                                target="_blank">
+                                See on LinkedIn (Click)
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="section-title mb-6">2</h3>
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/folio-2.jpg" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Terraguide: A Unified Platform for Green Spaces Management</h5>
+                                    <p class="font-weight-normal">Category: Full-Stack Web Application Development using
+                                        Python and Django with Role-Based Access Control and
+                                        Scalable Deployment.</p>
+                            </span>
+                        </span>
+                        <div class="project-video">
+                            <p>View the project working video on LinkedIn:</p>
+                            <a href="https://www.linkedin.com/posts/sanket-mengal-37940b253_django-python-mongodb-activity-7280967416497520640-88KY?utm_source=share&utm_medium=member_desktop"
+                                target="_blank">
+                                See on LinkedIn (Click)
+                            </a>
+                        </div>
+
+                    </a>
+                </div>
+
+                <div class="col-md-4">
+                    <h3 class="section-title mb-6">3</h3>
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/folio-3.jpg" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Pyhton Scripting</h5>
+                                    <p class="font-weight-normal">Category: Python Scripting for Automation</p>
+                            </span>
+                        </span>
+                    </a>
+                    <div class="project-video">
+                        <p>View the project working video on LinkedIn:</p>
+                        <a href="https://www.linkedin.com/posts/sanket-mengal-37940b253_duplicate-file-detector-and-deleter-is-a-activity-7112456205070929920-NIx6?utm_source=share&utm_medium=member_desktop"
+                            target="_blank">
+                            Watch on LinkedIn (Click)
+                        </a>
+                    </div>
+                </div>
+            </div><!-- end of row -->
+            <br> <!-- Line break -->
+            <br> <!-- Line break -->
+            <h4>A Boat Adventure Using Unity 3D</h5>
+                <div class="video-container" style="width: 100%; max-width: 960px; margin: 0 auto; padding: 20px;">
+                    <video controls style="width: 100%; height: auto;">
+                        <source src="game.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+
+        </div><!-- end of container -->
+    </section> <!-- end of portfolio section -->
+
+    <!-- pricing section -->
+    <section class="section" id="pricing">
+        <div class="container text-center">
+            <h6 class="section-title mb-6">My Hobbies</h6>
+            <!-- row -->
+            <div class="pricing-wrapper" style="display: flex; flex-wrap: wrap; gap: 15px;">
+                <!-- First Image Card -->
+                <div class="pricing-card" style="flex: 1 1 calc(33.333% - 15px); max-width: calc(33.333% - 15px);">
+                    <div class="pricing-card-header">
+                        <img class="pricing-card-img" src="assets/imgs/scooter.jpg" alt="Image 1 description"
+                            style="width: 100%; height: auto; border-radius: 10px;">
+                    </div>
+                </div>
+
+                <!-- Second Image Card -->
+                <div class="pricing-card" style="flex: 1 1 calc(33.333% - 15px); max-width: calc(33.333% - 15px);">
+                    <div class="pricing-card-header">
+                        <img class="pricing-card-img" src="assets/imgs/shipped.jpg" alt="Image 2 description"
+                            style="width: 100%; height: auto; border-radius: 10px;">
+                    </div>
+                </div>
+
+                <!-- Third Image Card -->
+                <div class="pricing-card" style="flex: 1 1 calc(33.333% - 15px); max-width: calc(33.333% - 15px);">
+                    <div class="pricing-card-header">
+                        <img class="pricing-card-img" src="assets/imgs/startup.jpg" alt="Image 3 description"
+                            style="width: 100%; height: auto; border-radius: 10px;">
+                    </div>
+                </div>
+            </div>
+        </div><!-- end of pricing wrapper -->
+        </div> <!-- end of container -->
+    </section><!-- end of pricing section -->
+
+    <!-- section -->
+    <section class="section-sm bg-primary">
+        <!-- container -->
+        <div class="container text-center text-sm-left">
+            <!-- row -->
+            <div class="row align-items-center">
+                <div class="col-sm offset-md-1 mb-4 mb-md-0">
+                    <h6 class="title text-light">Why should you hire me?</h6>
+                    <p class="m-0 text-light">"You should hire me because I am highly motivated, quick to adapt, and
+                        bring a strong combination of skills, dedication,
+                        and passion for achieving excellence. My ability to collaborate effectively, solve problems
+                        efficiently, and commit to
+                        continuous improvement makes me a valuable asset to any team."</p>
+                </div>
+                <div class="col-sm offset-sm-2 offset-md-3">
+
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of section -->
+
+
+
+    <!-- blog section -->
+    <section class="section" id="blog">
+        <!-- container -->
+        <div class="container text-center">
+            <p class="section-subtitle">My Medium Blogs</p>
+            <h6 class="section-title mb-6">Blog</h6>
+            <a href="https://medium.com/@sanket.22120016" class="blog-card-link">My Medium Link <i
+                    class="ti-angle-double-right"></i></a>
+            <!-- blog-wrapper -->
+
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="assets/imgs/img-1.jpg" class="blog-card-img"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Surround Yourself With Positive People - By Sanket Mengal</h6>
+
+                        <p class="blog-card-caption">
+                            <a href="#">By: Sanket</a>
+                            <a href="#"><i class="ti-heart text-danger"></i> 234</a>
+                            <a href="#"><i class="ti-comment"></i> 123</a>
+                        </p>
+                        <p>Who do you spend time with, with whom do you converse, and what kind of surroundings do you
+                            inhabit? These factors have
+                            a significant indirect impact on you. For example, I’ve witnessed a lot of people who are
+                            doing well in life suddenly
+                            stop moving forward because of a change in their environment or stressed connections. They
+                            wind up with a group of
+                            friends that are always bringing them down. They make disparaging remarks whenever they
+                            attempt something new. On the
+                            other hand, you feel inspired from within if you have supportive and cheerful friends.
+
+                            In my opinion, you should always choose a trustworthy group. The basic idea is to watch what
+                            people do and what they
+                            think of you.</p>
+
+
+
+                        <a href="https://medium.com/@sanket.22120016/surround-yourself-with-positive-people-c474263b67ed"
+                            class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div><!-- end of blog wrapper -->
+
+            <!-- blog-wrapper -->
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="assets/imgs/img-2.jpg" class="blog-card-img"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">What is DevOps and DevOps lifecycle?</h6>
+
+                        <p class="blog-card-caption">
+                            <a href="#">By: Sanket Mengal</a>
+                            <a href="#"><i class="ti-heart text-danger"></i> 456</a>
+                            <a href="#"><i class="ti-comment"></i> 264</a>
+                        </p>
+
+                        <p>DevOps (short for Development and Operations) is a set of practices, principles, and tools
+                            that aims to automate and
+                            integrate the work of software development (Dev) and IT operations (Ops) as a means to
+                            shorten the systems development
+                            lifecycle and provide continuous delivery of high-quality software. DevOps emphasizes
+                            collaboration, communication, and
+                            automation between developers and IT operations teams to improve the efficiency,
+                            reliability, and speed of software
+                            deployment.</p>
+
+                        <a href="https://medium.com/@sanket.22120016/what-is-devops-and-devops-lifecycle-21981e992a1f"
+                            class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div><!-- end of blog wrapper -->
+
+        </div><!-- end of container -->
+    </section><!-- end of blog section -->
+
+    <!-- contact section -->
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <p class="section-subtitle">How can you communicate?</p>
+            <h6 class="section-title mb-5">Contact Me</h6>
+            <section id="contact-me" style="margin-top: 40px; text-align: center;">
+                <p><strong>Name:</strong> Sanket Namdeo Mengal</p>
+                <p><strong>Phone Number:</strong> +91 9665797435</p>
+                <p><strong>Current Location:</strong> [Hinjewadi , Pune]</p>
+                <p><strong>Email:</strong> <a href="mailto:youremail@example.com"
+                        class="text-decoration-none">sanket.22120016@viit.ac.in</a></p>
+            </section>
+
+
+        </div><!-- end of container -->
+    </section><!-- end of contact section -->
+
+    <!-- footer -->
+
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
+
+</body>
+
+</html>
